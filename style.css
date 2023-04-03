@@ -1,0 +1,109 @@
+:root{
+    --cor1:#43007F;
+    --cor2:#6B00CC;
+    --cor3:#8600FF;
+    --cor4:#A037FF;
+
+}
+
+
+
+body{
+    background-color: var(--cor4);
+}
+main{
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 15px;
+    width: 320px;
+
+}
+
+/* sistema de login */
+
+main div{
+    height: 80%;
+}
+main div h4{
+    padding: 5px;
+}
+main h1{
+    color:var(--cor1);
+    text-align: center;
+    font-size: 35px;
+}
+
+article>p {
+    background-color: var(--cor3);
+    color: white;
+    text-align: left;
+    text-indent: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+    margin: 5px 5px 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 3px;
+}
+
+h5{
+    padding: 10px;
+    text-align: right;
+}
+
+.icon2{
+    width: 30px;
+    margin: 5px 5px 5px 0;
+}
+/* Botao login */
+
+.login{
+    background-color: var(--cor1);
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* entre com as redes sociais */
+
+.enterwith{
+    display: block;
+    text-align: center;
+}
+
+.icon{
+    width: 35px;
+    margin: 0 5px 10px 10px;
+}
+
+strong{
+    color: black;
+}
+
+strong:hover{
+    color: var(--cor3);
+}
+/* crie sua conta  */
+
+.createaccont{
+    text-align: center;
+}
